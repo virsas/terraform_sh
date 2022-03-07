@@ -7,6 +7,8 @@ Terraform module to enable AWS security hub
 ``` terraform
 module "sh" {
   source = "github.com/virsas/tfmod_sh"
+  // region in which you want to enable the security hub
+  region = "eu-west-1"
 }
 ```
 
