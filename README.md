@@ -1,4 +1,4 @@
-# tfmod_sh
+# terraform_sh
 
 Terraform module to enable AWS security hub
 
@@ -6,7 +6,7 @@ Terraform module to enable AWS security hub
 
 ``` terraform
 module "sh" {
-  source = "github.com/virsas/tfmod_sh"
+  source = "github.com/virsas/terraform_sh"
   // region in which you want to enable the security hub
   region = "eu-west-1"
 }
